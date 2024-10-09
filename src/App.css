@@ -32,16 +32,10 @@ main > div{
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 40px;
 }
 
-@media (max-width: 478px) {
-  .add-todo {
-    flex-wrap: wrap;
-  }
-  .add-todo button {
-    width: 100%;
-  }
-}
+
 
 .add-todo input {
   width: 100%;
@@ -66,6 +60,15 @@ main > div{
   background-color: rgb(17, 17, 17);
 }
 
+@media (max-width: 478px) {
+  .add-todo {
+    font-size: 10px;
+  }
+  .add-todo button {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+}
 .todo-item {
 
   padding: 20px;
