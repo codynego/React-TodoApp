@@ -34,9 +34,18 @@ main > div{
   gap: 10px;
 }
 
+@media (max-width: 478px) {
+  .add-todo {
+    flex-wrap: wrap;
+  }
+  .add-todo button {
+    width: 100%;
+  }
+}
+
 .add-todo input {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
   outline: 0;
   border:0;
@@ -44,7 +53,7 @@ main > div{
 }
 
 .add-todo button {
-  padding: 20px 40px;
+  padding: 10px 40px;
   border-radius: 5px;
   border: 0;
   background-color: black;
