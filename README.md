@@ -14,7 +14,7 @@ A simple Todo application built with React.
 
 ## Live Site
 
-You can view the live site [here](https://codynego-nasa-apod.netlify.app/).
+You can view the live site [here](https://codynego-todoapp.netlify.app/).
 
 
 ## Installation
