@@ -60,15 +60,7 @@ main > div{
   background-color: rgb(17, 17, 17);
 }
 
-@media (max-width: 478px) {
-  .add-todo {
-    font-size: 10px;
-  }
-  .add-todo button {
-    padding: 10px 20px;
-    font-size: 10px;
-  }
-}
+
 .todo-item {
 
   padding: 20px;
@@ -102,4 +94,18 @@ main > div{
   border: 0;
   background-color: transparent;
   cursor: pointer;
+}
+
+
+@media (max-width: 478px) {
+  .add-todo {
+    font-size: 10px;
+  }
+  .add-todo button {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  .todo-item {
+    padding: 10px;
+  }
 }
